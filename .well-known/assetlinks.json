@@ -1,9 +1,19 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.recipe_app",
-    "sha256_cert_fingerprints":
-    ["15:3F:EC:92:51:3F:6A:48:E8:7B:ED:15:68:05:F0:3A:73:40:3D:4B:42:1D:1A:19:88:27:47:89:B1:6C:E2:71"]
-  }
-}]
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.recipe_app",
+            "sha256_cert_fingerprints":
+            ["15:3F:EC:92:51:3F:6A:48:E8:7B:ED:15:68:05:F0:3A:73:40:3D:4B:42:1D:1A:19:88:27:47:89:B1:6C:E2:71"]
+        },
+        {
+            "relation": ["delegate_permission/common.handle_all_urls"],
+            "target": {
+                "namespace": "android_app",
+                "package_name": "es.divisadero.example.deeplinkingdemo",
+                "sha256_cert_fingerprints":
+                ["15:3F:EC:92:51:3F:6A:48:E8:7B:ED:15:68:05:F0:3A:73:40:3D:4B:42:1D:1A:19:88:27:47:89:B1:6C:E2:71"]
+            }
+        }
+]
